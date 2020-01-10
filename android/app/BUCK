@@ -20,6 +20,7 @@ android_library(
     name = "all-libs",
     exported_deps = lib_deps,
 )
+
 android_library(
     name = "app-code",
     srcs = glob([
